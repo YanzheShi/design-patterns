@@ -1,26 +1,27 @@
 package com.github.yanzheshi.singleton;
 
-import net.jcip.annotations.NotThreadSafe;
-
 /**
- * 懒汉式, 线程不安全
+ * 懒汉式
+ * 延迟加载
+ * double-checked Locking using Volatile
+ * 双重检验锁加volatile关键字
  * @author shiyanzhe
  */
-
-@NotThreadSafe
 public class Singleton3 {
-  private static Singleton3 instance;
+    //声明为volatile避免指令重排序
+    private volatile static Singleton3 instance;
+    private Singleton3() {
 
-  private Singleton3(){
+    }
 
-  }
-
-  public static Singleton3 getInstance() {
-      if (instance == null) {
-          instance = new Singleton3();
-      }
-      return instance;
-  }
+    private static Singleton3 getInstance() {
+        if (instance == null) {
+            synchronized (Singleton3.class) {
+                if (instance == null) {
+                    instance = new Singleton3();
+                }
+            }
+        }
+        return instance;
+    }
 }
-
-

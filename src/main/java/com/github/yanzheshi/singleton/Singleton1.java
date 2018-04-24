@@ -2,7 +2,7 @@ package com.github.yanzheshi.singleton;
 
 /**
  * 单例模式
- * 饿汉式
+ * 类加载的时候初始化
  * 使用静态常量
  * @author shiyanzhe
  */
