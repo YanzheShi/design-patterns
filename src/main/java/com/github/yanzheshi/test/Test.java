@@ -1,6 +1,6 @@
 package com.github.yanzheshi.test;
 
-import com.github.yanzheshi.singleton.Singleton2;
+import com.github.yanzheshi.create.singleton.Singleton2;
 
 /**
  * @author shiyanzhe
