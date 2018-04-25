@@ -5,6 +5,6 @@ package com.github.yanzheshi.create.simplefactory;
  */
 public class ProductA implements Product{
     public String method() {
-        return "ProductA";
+        return "ProductA1";
     }
 }
