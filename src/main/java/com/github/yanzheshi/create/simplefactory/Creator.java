@@ -5,6 +5,11 @@ package com.github.yanzheshi.create.simplefactory;
  * @author shiyanzhe
  */
 public class Creator {
+    /**
+     * 根据不同的参数生产不同的实例
+     * @param type
+     * @return
+     */
     public static Product getProduct(String type) {
         switch (type) {
             case "A":

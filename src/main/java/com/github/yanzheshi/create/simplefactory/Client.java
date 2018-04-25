@@ -1,6 +1,7 @@
 package com.github.yanzheshi.create.simplefactory;
 
 /**
+ * 客户端
  * @author shiyanzhe
  */
 public class Client {
