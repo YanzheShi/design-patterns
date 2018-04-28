@@ -8,12 +8,12 @@ package com.github.yanzheshi.create.templatemethod;
 public abstract class AbstractCalss {
 
     /**
-     * 基本方法
+     * 基本方法  protected访问权限
      */
     protected abstract void method1();
 
     /**
-     * 基本方法
+     * 基本方法  protected访问权限
      */
     protected abstract void method2();
 
