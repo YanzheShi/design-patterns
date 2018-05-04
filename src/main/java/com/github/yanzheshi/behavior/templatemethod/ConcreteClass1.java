@@ -1,4 +1,4 @@
-package com.github.yanzheshi.create.templatemethod;
+package com.github.yanzheshi.behavior.templatemethod;
 
 /**
  * 实现类1
