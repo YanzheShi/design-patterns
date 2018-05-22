@@ -9,3 +9,4 @@ node_modules
 target.
 *.eslintrc.js
 .vscode/settings.json
+g
