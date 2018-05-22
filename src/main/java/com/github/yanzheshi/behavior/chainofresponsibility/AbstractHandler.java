@@ -1,11 +1,17 @@
 package com.github.yanzheshi.behavior.chainofresponsibility;
 
 /**
+ * 抽象处理类
  * @author shiyanzhe
  */
 public abstract class AbstractHandler {
     private AbstractHandler next;
 
+    /**
+     * 如果请求级别不符， 交由其他类处理
+     * @param request
+     * @return
+     */
     public final Response handleMessage(Request request) {
         Response response = null;
         //判断是否是自己的处理级别
@@ -34,6 +40,7 @@ public abstract class AbstractHandler {
      * @return
      */
     protected abstract Response echo(Request request);
+
 
 
     public AbstractHandler getNext() {

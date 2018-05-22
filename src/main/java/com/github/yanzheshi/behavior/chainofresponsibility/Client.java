@@ -1,6 +1,7 @@
 package com.github.yanzheshi.behavior.chainofresponsibility;
 
 /**
+ * 客户端
  * @author shiyanzhe
  */
 public class Client {

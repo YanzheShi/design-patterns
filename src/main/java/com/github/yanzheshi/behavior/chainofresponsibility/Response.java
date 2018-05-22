@@ -1,6 +1,7 @@
 package com.github.yanzheshi.behavior.chainofresponsibility;
 
 /**
+ * 相应类
  * @author shiyanzhe
  */
 public class Response {

@@ -1,6 +1,7 @@
 package com.github.yanzheshi.behavior.chainofresponsibility;
 
 /**
+ * 处理类实现2
  * @author shiyanzhe
  */
 public class Handler2 extends AbstractHandler{
