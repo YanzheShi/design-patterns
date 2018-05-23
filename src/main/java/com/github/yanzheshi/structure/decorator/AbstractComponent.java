@@ -1,7 +1,13 @@
 package com.github.yanzheshi.structure.decorator;
 
 /**
+ * 抽象组件
  * @author shiyanzhe
  */
-public class AbstractComponent {
+public abstract class AbstractComponent {
+
+    /**
+     *
+     */
+    public abstract void operate();
 }
