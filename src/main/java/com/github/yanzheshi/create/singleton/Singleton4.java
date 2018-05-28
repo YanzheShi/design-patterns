@@ -2,7 +2,7 @@ package com.github.yanzheshi.create.singleton;
 
 /**
  * 静态内部类实现
- * 延迟加载
+ * 可以实现延迟加载
  * @author shiyanzhe
  */
 public class Singleton4 {
@@ -16,6 +16,5 @@ public class Singleton4 {
     public static Singleton4 getInstance() {
         return SingletonHolder.INSTANCE;
     }
-
 
 }
