@@ -1,6 +1,7 @@
 package com.github.yanzheshi.structure.proxy;
 
 /**
+ * 代理类
  * @author shiyanzhe
  */
 public class Proxy implements Subject {
