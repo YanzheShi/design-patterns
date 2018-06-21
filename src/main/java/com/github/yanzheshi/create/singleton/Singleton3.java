@@ -8,7 +8,7 @@ package com.github.yanzheshi.create.singleton;
  * @author shiyanzhe
  */
 public class Singleton3 {
-    //声明为volatile避免指令重排序
+    //声明为volatile避免指令重排序, 否则可能 instance != null, 但得到的是一个未初始化的对象
     private volatile static Singleton3 instance;
     private Singleton3() {
 
