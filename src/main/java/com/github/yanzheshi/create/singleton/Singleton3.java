@@ -16,6 +16,7 @@ public class Singleton3 {
 
     private static Singleton3 getInstance() {
         if (instance == null) {
+            // 锁对象为类对象
             synchronized (Singleton3.class) {
                 if (instance == null) {
                     instance = new Singleton3();
